@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Dice Roller</title>
+    <link rel="stylesheet" href="rpg.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+   
+
+    <div class="mainwindow">
+        <h1></h1>
+        <div id="modes">
+            <div><button><a href="DND.html">DND</a></button></div>
+            <div></div>
+            
+        </div>
+        <div class="diceroller">
+            <div class="dice" id="d6">
+                <div>
+                    <p>D6</p>
+                </div>
+                <div><button class="roll" onclick="d6()">ROLL</button></div>
+                <div id="valued6"><br></div>
+            </div>
+            <div class="dice" id="d6d6">
+               
+                    <div>
+                        <p>2D6</p>
+                    </div>
+                    <div><button class="roll" onclick="d6d6()">ROLL</button></div>
+                    <div id="valued6d6"><br></div>
+                </div>
+
+                <div class="dice" id="d20">
+               
+                        <div>
+                            <p>D20</p>
+                        </div>
+                        <div><button class="roll" onclick="d20()">ROLL</button></div>
+                        <div id="valued20"><br></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+</body>
+
+</html>
